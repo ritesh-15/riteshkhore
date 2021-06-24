@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Welcome !</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>
+            <a href="#home">
+                <p>Home</p>
+            </a>
+            <a href="#projects">
+                <p>My Projects</p>
+            </a>
+            <a href="#about">
+                <p>About Me</p>
+            </a>
+            <a href="#contact">
+                <p>Contact Me</p>
+            </a>
+
+        </header>
+        <div class="menu-icon">
+            <img src="/images/menu.svg" alt="" class="menu">
+        </div>
+    </nav>
+
+    <div class="small-nav">
+        <div class="small-content">
+            <img src="/images/close-white.svg" alt="" class="close-small-nav">
+            <a href="#home" onclick="hideSmallNav()">
+                <p>Home</p>
+            </a>
+            <a href="#projects" onclick="hideSmallNav()">
+                <p>My Projects</p>
+            </a>
+            <a href="#about" onclick="hideSmallNav()">
+                <p>About Me</p>
+            </a>
+            <a href="#contact" onclick="hideSmallNav()">
+                <p>Contact Me</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- succes message div -->
+    <div class="message-div ">
+        <div class="message-main">
+            <img src="/images/close.svg" alt="" class="close-img">
+            <div class="message-img-div">
+                <img src="/images/wrong.png" alt="" class="message-img">
+            </div>
+            <h1 class="message-info">Thank you for reaching me !</h1>
+        </div>
+    </div>
+
+
+
+    <section id="home" class="first">
+        <div class="hero">
+            <div class="hero-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="/images/undraw_profile_pic_ic5t.svg" alt="" class="avatar">
+                <h1>Hi I’m Ritesh</h1>
+                <h3>I’m frontend devloper with skill of backend</h3>
+                <a href="#projects"> <button class="see-skills">view projects</button></a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="second">
+        <div class="main">
+            <div class="heading">
+                <h1>My Projects</h1>
+                <img src="/images/underline.svg" alt="" class="underline">
+            </div>
+            <div class="project-main">
+                <div class="project-main-top">
+                    <div class="first-project  project-div " data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <div class="project-content">
+                            <h1>Gmail Clone</h1>
+                            <p>A gmail clone in which you can share email with attachments and you can star the emails
+                                also you can see the send mails.</p>
+                            <a href="https://clone-4127c.web.app/login" target="_blank">
+                                <button>View</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="second-project project-div " data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <div class="project-content">
+                            <h1>Whatsapp Clone</h1>
+                            <p>A whatsapp clone in which you can create a room and send message in that room.This clone
+                                is build in mern stack.</p>
+                            <a href="https://whatsappclone-882c5.web.app/" target="_blank">
+                                <button>View</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="third-project project-div " data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <div class="project-content">
+                            <h1>Amazone Clone</h1>
+                            <p>A amazone clone in which you can add the product to the cart you can checkout with the
+                                product and you can also done the payment.</p>
+                            <a href="https://e-clone-5b2c8.web.app/" target="_blank">
+                                <button>View</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-main-top project-main-bottom">
+                    <div class="fourth-project  project-div " data-aos="fade-up" data-aos-duration="2000">
+                        <div class="project-content">
+                            <h1>Filesharing website</h1>
+                            <p>A simple file sharing website in which you can share the file and get the download link
+                                or you can share file with email also.</p>
+                            <a href="https://fileshare-ad315.web.app/" target="_blank">
+                                <button>View</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fifth-project project-div " data-aos="fade-up" data-aos-duration="2000">
+                        <div class="project-content">
+                            <h1>Disney Plus Clone</h1>
+                            <p>A disney clone in which you get the information of diffrent movies available in the
+                                database , you can click view the movie information.</p>
+                            <a href="https://disneyclone-cfe5b.web.app/" target="_blank">
+                                <button>View</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="about">
+        <div class="about">
+            <div class="heading">
+                <h1 class="about-heading">About Me</h1>
+                <img src="/images/underline-white.svg" alt="" class="underline">
+            </div>
+            <div class="about-main">
+                <img data-aos="zoom-in" data-aos-duration="1500" src="/images/user.jpeg" alt="">
+                <div class="about-content" data-aos="fade-right" data-aos-duration="1500">
+                    <p>My name is <span>Ritesh khore</span>
+                        I am a Computer Engineering
+                        student studying in first year of my college
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="contact">
+            <div class="heading">
+                <h1 class="contact-heading">Contact Me</h1>
+                <img src="/images/underline.svg" alt="" class="underline">
+            </div>
+            <form class="contact-main" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+
+                <div class="first-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="first-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="first-row">
+                    <label for="number">Contact Number</label>
+                    <input type="number" id="number" name="number">
+                </div>
+
+                <div class="first-row">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+
+                <button type="submit" id="submit">Send Message</button>
+
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="social">
+                <a href="https://www.facebook.com/ritesh.p.khore/" target="_blank"> <img src="/images/facebook.svg"
+                        alt=""></a>
+                <a href="https://www.instagram.com/ritesh_khore/" target="_blank"><img src="/images/instagram.svg"
+                        alt=""></a>
+                <a href="https://riteshkhore@gmail.com" target="_blank"><img src="/images/gmail.svg" alt=""></a>
+            </div>
+            <div class="text">
+                <p>&copy; 2020-2021 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="/js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
