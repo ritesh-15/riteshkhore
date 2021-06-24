@@ -15,7 +15,7 @@ const menu = document.querySelector(".menu");
 const smallNav = document.querySelector(".small-nav");
 const closeSmallNav = document.querySelector(".close-small-nav");
 
-const SERVER_URI = "http://localhost:9000";
+const SERVER_URI = "";
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 100) {

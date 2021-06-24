@@ -776,11 +776,11 @@ footer {
   }
 
   .hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .hero h3 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .about-heading {
@@ -792,11 +792,11 @@ footer {
   }
 
   .about-content p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 
   .about-content span {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .about-main {
@@ -806,19 +806,19 @@ footer {
 
 @media screen and (max-width: 358px) {
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .hero h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .about-content p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .about-content span {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
   .underline {
