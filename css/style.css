@@ -11,6 +11,7 @@ body {
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .container {
@@ -201,22 +202,6 @@ header > a > p:hover {
   }
   100% {
     transform: scale(1);
-  }
-}
-
-@keyframes arrow {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(5px);
-  }
-  60% {
-    transform: translateY(3px);
   }
 }
 
@@ -709,6 +694,7 @@ footer {
   width: 100%;
   background-color: #ffffff;
   height: 40px;
+  margin-top: 1em;
 }
 
 .footer-main {
@@ -780,7 +766,7 @@ footer {
   }
 
   .hero h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .about-heading {
@@ -795,7 +781,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  .about-content span {
+  .about-content p span {
     font-size: 1.7rem;
   }
 
@@ -809,6 +795,25 @@ footer {
     font-size: 2rem;
   }
 
+  .about-main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .contact-main {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .project-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .avatar,
+  .about-main img {
+    max-width: 150px;
+  }
+
   .hero h3 {
     font-size: 1.2rem;
   }
@@ -817,8 +822,8 @@ footer {
     font-size: 1.2rem;
   }
 
-  .about-content span {
-    font-size: 1.7rem;
+  .about-content p span {
+    font-size: 1.4rem;
   }
 
   .underline {
@@ -826,9 +831,24 @@ footer {
     margin-top: -10px;
   }
 
-  .about,
-  .contact,
   .hero-top {
+    padding-top: 6rem;
+  }
+
+  .about,
+  .contact {
     padding-top: 3rem;
+  }
+
+  @keyframes messageMain {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.01);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 }
